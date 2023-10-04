@@ -3,3 +3,14 @@ Console.WriteLine("Hello, World!");
 Console.WriteLine("I just added this in visual studio");
 Console.WriteLine("I just added this in the cmd line repo");
 Console.WriteLine("This line added to show the staging area");
+
+namespace ConsoleApp1
+{
+    public class Calculator
+    {
+        public int Add (int left, int right)
+        {
+            return left + right;    
+        }
+    }
+}
